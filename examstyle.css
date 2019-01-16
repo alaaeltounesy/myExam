@@ -1,0 +1,440 @@
+*{
+	box-sizing: border-box;
+
+}
+
+
+.home1{
+	background-image: url(slideshow-1.jpg);
+	background-size: 100% 100%;
+	height: 600px;
+	
+
+}
+.home2{
+	background-image: url(slideshow-2.jpg);
+	background-size: 100% 100%;
+	height: 600px;
+	
+
+}
+.home3{
+	background-image: url(slideshow-3.jpg);
+	background-size: 100% 100%;
+	height: 600px;
+
+}
+.sec1  .mynav{
+	border-bottom: 1px solid white;
+	
+
+}
+
+ .sec1 .nav li a {
+	color: white;
+	font-size: 20px;
+
+}
+ .sec1  .nav li a:hover {
+	color: red;
+	font-size: 20px;
+
+}
+.sec1 .active{
+	color: red;
+}
+ .sec1 .spa1  {
+ font-style: bold;
+ font-size: 25px;
+ font-weight:15px;
+ color: white;
+}
+.sec1 i{
+	color: white;
+}
+.myh h1{
+font-size:75px;
+	font-style: bold;
+	 font-weight:700 ;
+}
+.myh{
+	height:50%;
+	width:50%;
+	margin: auto!important;
+	padding-top:200px;
+	color: white;
+	
+    line-height: 1;
+    position: relative;
+     animation-name:myanim;
+     animation-duration:5s;
+    
+}
+.sec1 .carousel-control-next{
+	left:0;
+}
+.sec1 .carousel-control-next-icon{
+	position: relative;
+	bottom:-50px;
+	border-bottom: 2px solid white ;
+}
+.sec1 .carousel-control-next-icon,
+ .carousel-control-prev-icon {
+ 	position: relative;
+ 	left:-85px;
+ 	border-top: 2px solid white ;
+ 	border-right: 2px solid white ;
+ 	padding:25px;
+
+	}
+@keyframes myanim{
+0%{  right:-500px; }
+
+100%{  right:0px;}
+
+}
+.about{
+	padding:70px;
+ }
+.about h1{
+color: black;
+text-align: center;
+padding-bottom: 30px;
+ font-weight:700;
+
+}
+.sec2 p{
+	color: gray;
+	text-align: center;
+}
+ .progress .progress-bar {
+    background-color: #ec3237;
+}
+.spa2{
+	float: right;
+}
+.sec3{height: 600px;
+	background-image: url(mission.jpg);
+	background-size: 100% 100%;
+
+
+}
+.sec4{
+	background-color:pink;
+	
+}
+.im{
+	position: relative;
+}
+.layer{
+	width: 95%;
+	height: 100%;
+	background-color:  rgba(242, 84, 84, 0.85);
+	position: absolute;
+	top: 0;
+	opacity: 0;
+
+}
+.im:hover{
+transform: scale(1.1,1.1);	
+}
+.im:hover .layer{
+opacity: 1;	
+}
+.icons{
+	width: 75%;
+	margin: auto;
+margin-top: 140px;
+}
+.icons i{
+padding:15px;
+}
+
+.sec5{
+
+}
+
+.sec5 h1{
+color: black;
+text-align: center;
+padding-bottom: 30px;
+ font-weight:700;
+
+}
+.sec5 p{
+	color: gray;
+	text-align: center;
+}
+.mynavimg .col-lg-3 {
+	padding: 0;
+	margin: 0;
+
+}
+ .sec5 .nav li{
+	border: none;
+	padding: 10px;
+
+}
+.sec5 .nav a{
+	color: black;
+	padding: 5px;
+	
+}
+.sec5{
+	background-color: #fafafa;
+}
+.sec5 .nav a:hover{
+	color: red;
+	border: none;
+	
+}
+.sec5 .nav-tabs .nav-link.active{
+	border:3px solid red;
+	border-radius: 50px;
+	color: red;
+}
+.sec6{
+	height: 250px;
+
+}
+.do{
+	padding:30px;
+	text-align: center;
+}
+.do p{
+	color: black;
+	text-align: center;
+font-size: 50px;
+ font-weight:700;
+
+}
+.do a{
+	    background-color:#f25454;
+	    color:white !important;
+	    border: 2px #f25454;
+
+}
+.sec7 h1{
+color: black;
+text-align: center;
+padding-bottom:20px;
+ font-weight:700;
+
+}
+
+.sec7 {
+	background-color: #fafafa;
+}
+.sec7  p{
+	color: gray;
+	text-align: center;
+}
+.sec7 .row p{
+	color: gray;
+	text-align: left;
+}
+.sec7 h3{
+	font-size: 25px;
+	display: inline;
+}
+.sec7 i{
+	color: red;
+}
+.sec7 h3:hover{
+	color: red;
+}
+ 
+ .sec8{
+ 	height:600px;
+ }
+.sec8 h1{
+color: white;
+text-align: center;
+padding-bottom:30px;
+ font-weight:700;
+
+}
+.myvedio{
+	height: 100%;
+	position: relative;
+}
+iframe{
+	height:100%;
+	width: 100%;
+}
+.onvedio{
+	
+	height:50%;
+	width:50%;
+	margin:auto;
+	position:absolute;
+	top:70px; 
+	left:100px;
+}
+.sec8 p{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+}
+.sec9 h1{
+color: black;
+text-align: center;
+padding-bottom:20px;
+ font-weight:700;
+
+}
+.sec9 h3{
+color: black;
+text-align: center;
+ font-weight:200;
+
+}
+.sec9 h4{
+color: gray;
+text-align: center;
+
+
+}
+.pn{
+
+}
+.sec9 {
+	background-color:#fafafa;
+}
+.sec9  p{
+	color: gray;
+	text-align: center;
+}
+.sec9 img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	opacity: 0.5;
+
+}
+.sec9 .carousel-item .active
+img 
+{
+	transform: scale(1.1,1.1);
+opacity: 1;
+}
+.sec9 .carousel-item img  
+{ display: inline-block;
+	transform: scale(1.1,1.1);
+
+}
+
+.sec10{
+
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+.sec10 i{
+	color: red;
+}
+.num{
+	color: white;
+text-align: center;
+padding:20px;
+ font-weight:700;
+ font-size: 50px;
+}
+.sec10 h5{
+ font-weight:200;
+ font-size: 30px;	
+}
+.sec11 h1{
+color: white;
+text-align: center;
+padding-bottom:20px;
+ font-weight:700;
+
+}
+
+.sec11 {
+	height:800px;
+	background-image:url(pricing.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+.sec11  p{
+	color: white;
+	text-align: center;
+}
+.report{
+	
+	text-align: center;
+	background-color: white ;
+	
+}
+.report .header{
+width: 100;
+height: 50%;
+padding:30px 10px;
+background-color: #f0f0f0 ;
+
+}
+
+.report .footer{
+width: 100;
+padding:20px 10px;
+background-color: black ;
+
+
+}
+.report span{
+	color: gray;
+text-align: center;
+font-size: 50px;
+ font-weight:700;
+}
+.report span:hover{
+	color: red;
+
+}
+.foc{
+	transform: scale(1.5,1,5);
+
+}
+.foc .header{
+
+background-color: red ;
+color: white;
+}
+.sec12{
+background-color: #f0f0f0 ;
+height: 700px;
+color: gray;
+
+}
+.sec12 h1{
+color: black;
+text-align: center;
+padding-bottom:20px;
+margin-top:30px;
+ font-weight:700;
+
+}
+.sec12 i{
+	color: red;
+}
+.sec12 a{
+	color: red;
+	text-decoration: none;
+}
+.sec12 h4{
+	color: black;
+}
+.inp{
+	padding-top: 150px;
+}
+.sec12 input,textarea{
+	width: 90%;
+	margin-bottom: 20px; 
+	padding:7px;
+
+}
